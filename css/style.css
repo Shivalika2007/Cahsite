@@ -13,13 +13,13 @@ body {
 
     padding: 0px;
     margin: 0px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     font-optical-sizing: auto;
 
     font-style: normal;
     font-variation-settings:
         "width" 100;
-
+    
 }
 
 
@@ -75,6 +75,8 @@ header {
     font-size: 40px;
 }
 
+
+
 /*section*/
 .divide {
     display: grid;
@@ -109,9 +111,79 @@ div .main {
     height:90px;
 
 }
-.photo img{
+.grid{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    width: 200px;
-    height: 200px;
+}
+.grid img{
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: -100px;
+    margin-top: 100px;
+   
+    
+}
+
+.middletext{
+    background-color: darkblue;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    padding-top: 200px;
+    padding-bottom: 40px;
+    padding-inline-start: 20px;
+}
+
+b .bold{
+    font-size: 150px;
+}
+
+.personal{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap:10px;
+    
+}
+.heading{
+    color: darkblue;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.subhead{
+    color: grey;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+#details{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 20px;
+
+}
+
+#details div{
+    padding-top: 10px;
+}
+#details div i{
+    margin-right:10px;
+}
+
+.span a{
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.span a:hover{
+    background-color: purple;
 }
